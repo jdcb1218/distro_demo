@@ -1,0 +1,10 @@
+#Ckeditor5 schema
+ckeditor5.plugin.uswds_ckeditor_integration_ckeditor5_table_content_items:
+  type: mapping
+  label: USWDS Table Toolbar
+  mapping:
+    table_content_items:
+      type: boolean
+      label: 'Use USWDS table properties'
+      constraints:
+        NotNull: []

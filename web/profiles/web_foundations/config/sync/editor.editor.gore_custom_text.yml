@@ -1,0 +1,28 @@
+uuid: d3c441fe-ebf7-499e-8a76-7f7508d1e64c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.gore_custom_text
+  module:
+    - ckeditor5
+format: gore_custom_text
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - bold
+      - italic
+      - insertTable
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    uswds_ckeditor_integration_ckeditor5_table_content_items:
+      table_content_items: true
+image_upload: {  }

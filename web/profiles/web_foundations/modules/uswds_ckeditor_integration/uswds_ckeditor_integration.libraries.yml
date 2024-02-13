@@ -1,0 +1,12 @@
+uswds_table_content_items:
+  js:
+    js/build/uswds_table_content_items.js: { preprocess: false, minified: false }
+
+admin_styling:
+  version: VERSION
+  css:
+    theme:
+      css/admin-styling.css: {}
+  js:
+    js/admin-script.js: {}
+    js/sorttable.js: {}

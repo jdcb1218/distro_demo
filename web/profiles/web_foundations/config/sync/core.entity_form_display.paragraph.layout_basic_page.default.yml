@@ -1,0 +1,26 @@
+uuid: aea61d41-948c-4d23-9003-4d746f62108a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.layout_basic_page.field_background_color
+    - paragraphs.paragraphs_type.layout_basic_page
+id: paragraph.layout_basic_page.default
+targetEntityType: paragraph
+bundle: layout_basic_page
+mode: default
+content:
+  field_background_color:
+    type: options_select
+    weight: -199
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  layout_paragraphs_fields:
+    weight: -200
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

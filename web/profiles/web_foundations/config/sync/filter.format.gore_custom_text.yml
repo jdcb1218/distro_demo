@@ -1,0 +1,8 @@
+uuid: 898a8a5d-6439-4cfb-b17e-005efa35dd43
+langcode: en
+status: true
+dependencies: {  }
+name: 'Gore custom text'
+format: gore_custom_text
+weight: 0
+filters: {  }

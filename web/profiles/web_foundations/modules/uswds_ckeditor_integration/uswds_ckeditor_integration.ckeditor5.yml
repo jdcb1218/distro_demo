@@ -1,0 +1,20 @@
+uswds_ckeditor_integration_ckeditor5_table_content_items:
+  ckeditor5:
+    plugins:
+      - uswds_table_content_items.UswdsTableContentItems
+    config:
+      table:
+        contentToolbar: [ tableUswds ]
+  drupal:
+    label: USWDS Table Toolbar Items
+    class: Drupal\uswds_ckeditor_integration\Plugin\CKEditor5Plugin\UswdsTableContentItems
+    library: uswds_ckeditor_integration/uswds_table_content_items
+    elements:
+      - <div class="usa-table-container--scrollable usa-sr-only usa-table__announcement-region" aria-live>
+      - <table class>
+      - <th scope data-label data-sortable role>
+      - <td data-label data-sort-value>
+    conditions:
+      requiresConfiguration:
+        table_content_items: true
+      plugins: [ckeditor5_table]

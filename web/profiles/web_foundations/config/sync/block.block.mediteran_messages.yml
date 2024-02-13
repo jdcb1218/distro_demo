@@ -1,0 +1,22 @@
+uuid: 746d2258-b0df-4428-a491-df45075d60b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mediteran
+_core:
+  default_config_hash: 61OluDQLB1biwMrAHQpCSu5QYc_KHs3jlVvqHz-qikk
+id: mediteran_messages
+theme: mediteran
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

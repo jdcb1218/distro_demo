@@ -1,0 +1,24 @@
+uuid: a7b4d703-3a4c-4a06-bbc0-fd636612d28c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:a473430b-1c69-41c3-87fa-2a0517621e74'
+  module:
+    - layout_paragraphs
+    - type_style
+third_party_settings:
+  type_style:
+    color: '#000000'
+    icon: ''
+id: layout_basic_page
+label: 'Layout: Basic Page'
+icon_uuid: a473430b-1c69-41c3-87fa-2a0517621e74
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDI0IDI0IiByb2xlPSJpbWciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgYXJpYS1sYWJlbGxlZGJ5PSJsYXlvdXRSaWdodEljb25UaXRsZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIgY29sb3I9IiMwMDAwMDAiPiA8dGl0bGUgaWQ9ImxheW91dFJpZ2h0SWNvblRpdGxlIj5MYXlvdXQgUmlnaHQ8L3RpdGxlPiA8cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHg9IjMiIHk9IjMiLz4gPHBhdGggZD0iTTMgOEwyMSA4TTkgOEw5IDIxIi8+IDwvc3ZnPg=='
+description: 'Allows you to create a layout for a basic page content type.'
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_threecol_25_50_25: 'Three column 25/50/25'
+      layout_threecol_33_34_33: 'Three column 33/34/33'

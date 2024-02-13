@@ -1,0 +1,40 @@
+uuid: acd9285b-b3d8-400a-8d71-4e0a6d1e39b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.blogs.body
+    - field.field.node.blogs.field_components
+    - node.type.blogs
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.blogs.rss
+targetEntityType: node
+bundle: blogs
+mode: rss
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_components:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

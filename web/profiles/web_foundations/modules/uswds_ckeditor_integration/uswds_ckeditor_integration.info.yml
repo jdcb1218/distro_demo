@@ -1,0 +1,8 @@
+name: USWDS Ckeditor Integration
+type: module
+description: Helps integrate some USWDS components into ckeditor5
+package: USWDS
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:ckeditor5
+  - drupal:media_library

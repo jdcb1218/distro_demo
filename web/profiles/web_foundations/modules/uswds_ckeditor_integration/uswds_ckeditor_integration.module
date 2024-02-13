@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ */
+
+function uswds_ckeditor_integration_page_attachments(array &$attachments) {
+    $attachments['#attached']['library'][] = 'uswds_ckeditor_integration/admin_styling';
+}
+
+/**
+ * Implements hook_ckeditor5_plugin_info_alter().
+ */
+
+function uswds_ckeditor_integration_ckeditor5_plugin_info_alter(array &$plugin_definitions): void {  
+    unset($plugin_definitions['ckeditor5_table_properties']);
+    unset($plugin_definitions['ckeditor5_table_cell_properties']);
+}

@@ -1,0 +1,21 @@
+uuid: b22298e3-2a5e-420d-a3af-d8d62a6a913f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - type_style
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  type_style:
+    color: '#009688'
+    icon: fa-file-text-o
+name: blogs
+type: blogs
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

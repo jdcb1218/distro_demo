@@ -1,0 +1,23 @@
+.ck-content .table table th  {
+    background:  hsl(240, 75%, 60%)!important;
+    font-weight: 700;
+    color: white;
+}
+
+.ck table, .node__content table {
+    border: 5px solid hsl(240, 75%, 60%)!important;
+    margin: 0;
+    display: table;
+}
+
+.ck table td, .ck table th, .node__content table td, .node__content table th{
+    border: 1px solid #bfbfbf;
+    min-width: 2em;
+    padding: .4em;
+}
+
+.node__content thead th {
+    background:  hsl(240, 75%, 60%)!important;
+    font-weight: 700;
+    color: white!important;
+}
